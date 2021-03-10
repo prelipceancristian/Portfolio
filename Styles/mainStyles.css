@@ -1,0 +1,62 @@
+@font-face{
+    font-family: pixelatedFont;
+    src:url("../Fonts/Hackbot.otf");
+}
+
+html{
+    background-color: black;
+    color:white;
+    font-family: pixelatedFont;
+}
+
+#mainContainer{
+    height: 98vh;
+    display: flex;
+}
+
+#mainWindow{
+    background-color: grey;
+    width: 1000px;
+    height: 800px;
+    border-radius: 1%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#topBar{
+    top:0;
+    width: 100%;
+    background-color: #BEBDB8;
+    overflow: hidden;
+    border-style:solid;
+    border-width: 0 0 1 0;
+    border-color: black;
+}
+
+#topBar ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden; /* aparent destul de important */
+}
+
+#topBar li{
+    float:left;
+    font-size: 0.9vw;
+    display: block;
+    text-decoration: none;
+    padding: 14px 10px;
+    /*text-shadow: 2px 2px #403821;*/    
+}
+
+#topBarLogo{
+    float:left;
+    padding: 8 0 0 8;
+    display: block;
+}
+
+#desktop{
+    padding: 0 0 0 10;
+}
+
+
